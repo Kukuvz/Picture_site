@@ -4,8 +4,8 @@ const gulp = require("gulp");
 const webpack = require("webpack-stream");
 const browsersync = require("browser-sync");
 
-const dist = "./dist/";
-// const dist = "D:/web-developer 2021/OpenServer/domains/Massive_project";
+// const dist = "./dist/";
+const dist = "D:/web-developer 2021/OpenServer/domains/Picture";
 
 gulp.task("copy-html", () => {
     return gulp.src("./src/index.html")
